@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.coderli.dao.ICommentDao">
+	<select id="selectComment" resultType="com.coderli.entity.Comment" >
+		select * from t_comment where news_id=#{id} 
+		<choose>
+			<when test="order == 1">
+				order by  count desc
+			</when>
+			<when test="order == 2 ">
+				order by  time desc
+			</when>
+			<when test="order == 3 ">
+				order by  time asc
+			</when>
+		</choose>
+		limit #{st},#{r}
+	</select>
+</mapper>
