@@ -4,4 +4,14 @@
 ### 效果预览
 ![首页图](/images/main.png)
 ### 注意
-**功能暂时没有完全实现，并且存在较多bug。后期将会不断的进行改进。**
+功能暂时没有完全实现，并且存在较多bug。后期将会不断的进行改进。
+### 进度
+(1)项目基本搭建<br/>
+(2)项目由servlet+jsp转成ssm<br />
+TODO.....
+### 期望
+(1)freemarker完全替代jsp<br />
+(2)使用freemarker完成网页静态化<br />
+(3)使用定时任务，定时从阿里云api获取新闻数据<br />
+(4)接入newsql(postgresql)，放弃mysql<br />
+后期有idea，再追加！！！
