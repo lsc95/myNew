@@ -10,31 +10,24 @@ import org.springframework.web.context.request.WebRequest;
 import com.coderli.service.NewsService;
 import com.google.gson.Gson;
 
+/**
+ * 主页
+ * @author lishichun
+ *
+ */
 @Controller
 @RequestMapping("/news")
 @SuppressWarnings("all")
 public class NewsController{
 	@Resource(name="newsService")
 	private NewsService service = null;
-	
-	@RequestMapping("/appendChannel")
-	@ResponseBody
-	private String appendChannel(String catagory,Integer index,Integer rows) {
-		int startIndex=(index-1)*rows;
-		List<Map> list =service.appendChannelList(startIndex,rows,catagory);
-		return new Gson().toJson(list);
-	}
-	@RequestMapping("/appendNews")
-	@ResponseBody
-	private String appendNews(Integer index,Integer rows){
-		int startIndex=(index-1)*rows;
-		List<Map> list = service.appendNews(startIndex+"",rows+"");
-		return new Gson().toJson(list);
-	}
-	@RequestMapping("/selectHot")
+
+	@RequestMapping(value="/selectHot")
 	private String selectHot(WebRequest req) {
 		List<Map> list = service.selectHotNews();
-		req.setAttribute("list", list,WebRequest.SCOPE_REQUEST);
-		return "main.jsp";
+		List<Map> channels=service.getAllChannel();
+		req.setAttribute("list", list, WebRequest.SCOPE_REQUEST);
+		req.setAttribute("channels", channels, WebRequest.SCOPE_REQUEST);
+		return "/main.jsp";
 	}
 }

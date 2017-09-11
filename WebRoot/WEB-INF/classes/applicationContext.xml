@@ -12,14 +12,17 @@
 		http://www.springframework.org/schema/mvc
 		http://www.springframework.org/schema/mvc/spring-mvc.xsd        
 	        http://www.springframework.org/schema/tx
-	        http://www.springframework.org/schema/tx/spring-tx.xsd">    
+	        http://www.springframework.org/schema/tx/spring-tx.xsd"> 
+	    
+	<context:property-placeholder location="classpath:db.properties" />   
 	<context:component-scan base-package="com.coderli" />
+	
 	<!-- 1. 配置数据源,采用DBCP2来创建数据库连接 -->
 	<bean id="ds" class="org.apache.commons.dbcp2.BasicDataSource">
-		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://localhost:3306/tthot?useUnicode=true&amp;characterEncoding=UTF-8"></property>
-		<property name="username" value="root"></property>
-		<property name="password" value=""></property>
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.user}" />
+		<property name="password" value="${jdbc.password}" />
 	</bean>
 	<!-- 2. 让Spring来负责创建SqlSessionFactory 
 		SqlSessionFactoryBean就是在IOC容器初始化的时候自动由Spring来负责创建SessionFactory
@@ -34,13 +37,13 @@
 	
 	<!-- 3.在IOC容器加载的时候自动扫描DAO接口,我们不再需要写<Mappers>这些配置文件了 -->	
 	<bean id="msc" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.coderli" />
+		<property name="basePackage" value="com.coderli.dao" />
 	</bean>
 	
 	<!-- 增加声明式事务控制 -->
 	<!-- 1.定义事务管理器,事务管理器用于执行打开\提交\回滚事务的操作 -->
 	<bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-		<property name="dataSource" ref="ds"></property><!-- 绑定数据源 -->
+		<property name="dataSource" ref="ds" /><!-- 绑定数据源 -->
 	</bean>
 	<!-- 2. 通知Spring,程序将采用注解的形式来管理事务 -->
 	<tx:annotation-driven transaction-manager="txManager"/>

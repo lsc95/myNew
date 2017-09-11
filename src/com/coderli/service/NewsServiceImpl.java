@@ -2,9 +2,12 @@ package com.coderli.service;
 
 import java.util.List;
 import java.util.Map;
+
 import javax.annotation.Resource;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
 import com.coderli.dao.NewsDao;
 import com.coderli.entity.News;
 @Service("newsService")
@@ -13,45 +16,14 @@ import com.coderli.entity.News;
 public class NewsServiceImpl implements NewsService {
 	@Resource(name="newsDao")
 	private NewsDao dao=null;
-	
+
 	@Override
 	public List<Map> selectHotNews() {
-		return dao.appendNews(0, 10);
+		
+		return dao.getMainTop();
 	}
-
-	@Override
-	public List<News> getChannelNew(String channel) {
-		return dao.getChannelNew(channel);
+	public List<Map> getAllChannel(){
+		return dao.getChannels();
 	}
-
-	@Override
-	public News getNewsDetail(String newsId) {
-		return dao.getNewsDetail(newsId);
-	}
-
-	@Override
-	public void addCount(String newsId) {
-		dao.addCount(newsId);
-	}
-
-	@Override
-	public List<News> getAdviceNews() {
-		return dao.getAdviceNews();
-	}
-
-	@Override
-	public List<Map> appendNews(String index, String rows) {
-		return dao.appendNews(Integer.parseInt(index),Integer.parseInt(rows));
-	}
-
-	@Override
-	public int getCount(String newsId) {
-		return dao.getCount(newsId);	
-	}
-
-	@Override
-	public List<Map> appendChannelList(int startIndex, Integer rows,String catagory) {
-		return dao.appendChannelList(startIndex,rows,catagory);
-	}
-
+	
 }

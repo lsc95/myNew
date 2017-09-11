@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.coderli.service.NewsService;
 import com.google.gson.Gson;
 
+/**
+ * 此控制主要用来统计点赞次数
+ * @author lishichun
+ *
+ */
 @Controller("countController")
 @SuppressWarnings("all")
 @RequestMapping("/count")
@@ -19,17 +24,7 @@ public class CountController{
 	@RequestMapping("/add")
 	@ResponseBody
 	public String count(String newsId){
-		Map result = new HashMap<>();
-		if(newsId==null||"".equals(newsId.trim())){
-			result.put("msg", "请求不合法");
-			result.put("status", false);
-		}else{
-			service.addCount(newsId);
-			int count=service.getCount(newsId);
-			result.put("msg", "操作成功");
-			result.put("count",count);
-			result.put("status", true);
-		}
-		return new Gson().toJson(result);
+		return newsId;
+		
 	}
 }

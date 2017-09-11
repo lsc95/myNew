@@ -57,14 +57,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 <div class="pet_circle_nav">
     <ul class="pet_circle_nav_list">
-        <li><a href="content?channel=mil" class="iconfont pet_nav_xinxianshi ">&#xe61e;</a><span>军事</span></li>
-        <li><a href="content?channel=edu" class="iconfont pet_nav_zhangzhishi ">&#xe607;</a><span>教育</span></li>
-        <li><a href="content?channel=tech" class="iconfont pet_nav_kantuya ">&#xe62c;</a><span>科技</span></li>
-        <li><a href="content?channel=health" class="iconfont pet_nav_mengzhuanti ">&#xe622;</a><span>健康</span></li>
-        <li><a href="content?channel=ast" class="iconfont pet_nav_meirong ">&#xe629;</a><span>星座</span></li>
-        <li><a href="content?channel=ent" class="iconfont pet_nav_yiyuan ">&#xe602;</a><span>娱乐</span></li>
-        <li><a href="content?channel=sports" class="iconfont pet_nav_dianpu ">&#xe604;</a><span>体育</span></li>
-        <li><a href="content?channel=finance" class="iconfont pet_nav_gengduo ">&#xe600;</a><span>财经</span></li>
+    	<c:forEach items="${channels}" var="channel">
+        <li ><a href="content?channel=${channel.channel_id}" class="iconfont pet_nav_xinxianshi " style="background-color:${channel.color};">${channel.iconfont}</a><span>${channel.channel }</span></li>
+        </c:forEach>
     </ul>
     <div class="pet_more_list"><div class="pet_more_list_block">
     <div class="iconfont pet_more_close">×</div>
@@ -104,19 +99,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
     </div>
 
-</div>
-<div class="pet_article_dowload pet_dowload_more_top_off">
-      <div class="pet_article_dowload_title">关于Amaze UI</div>
-      <div class="pet_article_dowload_content pet_dowload_more_top_bg"><div class="pet_article_dowload_triangle pet_dowload_more_top_san"></div>
-      <div class="pet_article_dowload_ico"><img src="img/footdon.png" alt=""></div>
-      <div class="pet_article_dowload_content_font">
-Amaze UI 以移动优先（Mobile first）为理念，从小屏逐步扩展到大屏，最终实现所有屏幕适配，适应移动互联潮流。 </div>
-      <div class="pet_article_dowload_all">
-        <a href="###" class="pet_article_dowload_Az am-icon-apple"> App store</a>
-        <a href="###" class="pet_article_dowload_Pg am-icon-android"> Android</a>
-      </div>
-      </div>
-      <div class="pet_article_footer_info">Copyright(c)2015 Amaze UI All Rights Reserved.模板收集自 <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> -  More Templates  <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></div>
 </div>
 </div>
 
@@ -171,9 +153,9 @@ $(function(){
 				});
 			 }
 		}
-		$(window).unbind("scroll").bind("scroll", function(e){  
+		/* $(window).unbind("scroll").bind("scroll", function(e){  
 			append();
-		});  
+		});   */
 	});
 </script>
 </body>
