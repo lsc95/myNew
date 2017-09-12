@@ -11,6 +11,7 @@
 (3)完成postgresql数据库的构建<br />
 (4)从阿里云api获取数据，完成postgresql数据的填充<br />
 (5)使用ssm完成新闻的展示，但是数据暂时只是本地。<br />
+(6)数据可以从网络api中获取<br />
 TODO.....
 ### 期望
 (1)freemarker完全替代jsp<br />
@@ -19,6 +20,7 @@ TODO.....
 (4)<del>接入newsql(postgresql)，放弃mysql</del>(**实现**)<br />
 (5)引入Spring Data-JPA,简化postgresql数据库的操作(不能再使用mybatis,需要引入其他orm框架，这点实现有待考虑。)<br />
 (6)在阿里云或者腾讯云部署上线，以后不用再看满天广告的新闻了。<br />
+(7)今天试玩了一下spring boot，觉得非常有意思。看后期有没有机会重构。<br/>
 后期有idea，再追加！！！
 ### 存在问题
 (1)手机端适配存在问题<br />
