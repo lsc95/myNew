@@ -8,4 +8,23 @@
 	<select id="getChannels" resultType="java.util.LinkedHashMap">
 		select * from t_channel order by channel_id
 	</select>
+	<select id="getBanner" resultType="java.util.LinkedHashMap">
+		select news_id,title,pic from t_news where is_show_banner=true
+	</select>
+	<select id="getCahnnel" resultType="java.util.LinkedHashMap">
+		select n.*,c.channel,c.channel_code,c.color,c.iconfont 
+		from t_news n,t_channel c 
+		where 
+			n.channel_id=c.channel_id 
+			and c.channel_id=#{id}
+		order by hotpoint desc,time desc 
+		limit #{r} offset #{st}
+	</select>
+	<select id="getNewsById" parameterType="int" resultType="java.util.HashMap">
+		select n.*,c.channel,c.channel_code,c.color,c.iconfont 
+		from t_news n,t_channel c 
+		where 
+			n.channel_id=c.channel_id 
+			and n.news_id=#{id}
+	</select>
 </mapper>

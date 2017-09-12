@@ -26,8 +26,10 @@ public class NewsController{
 	private String selectHot(WebRequest req) {
 		List<Map> list = service.selectHotNews();
 		List<Map> channels=service.getAllChannel();
+		List<Map> banners = service.getBanner();
 		req.setAttribute("list", list, WebRequest.SCOPE_REQUEST);
 		req.setAttribute("channels", channels, WebRequest.SCOPE_REQUEST);
+		req.setAttribute("banners", banners, WebRequest.SCOPE_REQUEST);
 		return "/main.jsp";
 	}
 }

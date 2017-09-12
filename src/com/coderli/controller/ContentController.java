@@ -1,9 +1,15 @@
 package com.coderli.controller;
 
 
+import java.util.List;
+import java.util.Map;
+
 import javax.annotation.Resource;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.context.request.WebRequest;
+
 import com.coderli.service.NewsService;
 
 /**
@@ -16,5 +22,11 @@ import com.coderli.service.NewsService;
 public class ContentController {
 	@Resource(name="newsService")
 	private NewsService service = null;
-
+	
+	@RequestMapping("/show")
+	public String showChannel(Integer channelId,WebRequest wr){
+		List<Map> list = service.selectHotChannel(channelId);
+		wr.setAttribute("list", list, WebRequest.SCOPE_REQUEST);
+		return "/channel.jsp";
+	}
 }

@@ -10,11 +10,16 @@
 (2)项目由servlet+jsp转成ssm<br />
 (3)完成postgresql数据库的构建<br />
 (4)从阿里云api获取数据，完成postgresql数据的填充<br />
+(5)使用ssm完成新闻的展示，但是数据暂时只是本地。<br />
 TODO.....
 ### 期望
 (1)freemarker完全替代jsp<br />
 (2)使用freemarker完成网页静态化<br />
 (3)使用定时任务，定时从阿里云api获取新闻数据<br />
-(4)接入newsql(postgresql)，放弃mysql<br />
+(4)<del>接入newsql(postgresql)，放弃mysql</del>(**实现**)<br />
 (5)引入Spring Data-JPA,简化postgresql数据库的操作(不能再使用mybatis,需要引入其他orm框架，这点实现有待考虑。)<br />
+(6)在阿里云或者腾讯云部署上线，以后不用再看满天广告的新闻了。<br />
 后期有idea，再追加！！！
+### 存在问题
+(1)手机端适配存在问题<br />
+(2)部分新闻内容夹杂着图片，影响列表新闻内容摘要的展示。

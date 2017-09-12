@@ -27,30 +27,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="pet_mian" id="top">
   <div data-am-widget="slider" class="am-slider am-slider-a1" data-am-slider='{"directionNav":false}' >
   <ul class="am-slides">
+ 	<c:forEach items="${banners}" var="banner">
       <li>
-            <img src="img/fl01.png">
+            <img src="${banner.pic }" style="height:350px;background-size:cover;">
             <div class="pet_slider_font">
                 <span class="pet_slider_emoji"> (╭￣3￣)╭♡   </span>
-                <span>“大白”有望成为现实：充气机器人研究取得进展</span>
+                <span>${banner.title }</span>
             </div>
             <div class="pet_slider_shadow"></div>
       </li>
-      <li>
-            <img src="img/fl02.png">
-            <div class="pet_slider_font">
-                <span class="pet_slider_emoji"> []~(￣▽￣)~*　</span>
-                <span>已然魔性的雪橇犬哈士奇 —《雪地狂奔》</span>
-            </div>
-            <div class="pet_slider_shadow"></div>
-      </li>
-      <li>
-            <img src="img/fl03.png">
-            <div class="pet_slider_font">
-                <span class="pet_slider_emoji"> (｡・`ω´･)　</span>
-                <span>《星际争霸2:虚空之遗》国服过审!</span>
-            </div>
-            <div class="pet_slider_shadow"></div>
-      </li>
+     </c:forEach>
   </ul>
 </div>
 
@@ -58,7 +44,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="pet_circle_nav">
     <ul class="pet_circle_nav_list">
     	<c:forEach items="${channels}" var="channel">
-        <li ><a href="content?channel=${channel.channel_id}" class="iconfont pet_nav_xinxianshi " style="background-color:${channel.color};">${channel.iconfont}</a><span>${channel.channel }</span></li>
+        <li ><a href="${pageContext.request.contextPath}/content/show?channelId=${channel.channel_id}" class="iconfont pet_nav_xinxianshi " style="background-color:${channel.color};">${channel.iconfont}</a><span>${channel.channel }</span></li>
         </c:forEach>
     </ul>
     <div class="pet_more_list"><div class="pet_more_list_block">
@@ -84,7 +70,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	            </div>
 	        </div>
 	        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
-	            <h3 class="am-list-item-hd pet_list_one_bt"><a href="detail?id=${news.news_id }" class="detail-url">${news.title}</a></h3>
+	            <h3 class="am-list-item-hd pet_list_one_bt"><a href="${pageContext.request.contextPath}/detail/show?newsId=${news.news_id }" class="detail-url">${news.title}</a></h3>
 	            <div class="am-list-item-text pet_list_one_text">${news.content}</div>
 	        </div>
 	          <div class="am-u-sm-4 am-list-thumb">

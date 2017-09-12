@@ -25,5 +25,18 @@ public class NewsServiceImpl implements NewsService {
 	public List<Map> getAllChannel(){
 		return dao.getChannels();
 	}
+	@Override
+	public List<Map> getBanner() {
+		return dao.getBanner();
+	}
+	@Override
+	public List<Map> selectHotChannel(Integer id) {
+		return dao.getCahnnel(0,10,id);
+	}
+	@Override
+	public Map selectOne(Integer newsId) {
+	
+		return dao.getNewsById(newsId);
+	}
 	
 }

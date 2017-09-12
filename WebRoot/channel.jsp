@@ -32,56 +32,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         </div>
       </header>
     </div>
-
-    <div class="pet_more_list">
-      <div class="pet_more_list_block">
-        <div class="iconfont pet_more_close">×</div>
-        <div class="pet_more_list_block">
-          <div class="pet_more_list_block_name">
-            <div class="pet_more_list_block_name_title">栏目</div>
-            <a class="pet_more_list_block_line" href="content?channel=mil"> <i class="iconfont pet_nav_xinxianshi pet_more_list_block_line_ico">&#xe61e;</i>
-              <div class="pet_more_list_block_line_font">军事</div>
-            </a>
-            <a class="pet_more_list_block_line" href="content?channel=edu"> <i class="iconfont pet_nav_zhangzhishi pet_more_list_block_line_ico">&#xe607;</i>
-              <div class="pet_more_list_block_line_font">教育</div>
-            </a>
-            <a class="pet_more_list_block_line" href="content?channel=tech">
-              <i class="iconfont pet_nav_kantuya pet_more_list_block_line_ico">&#xe62c;</i>
-              <div class="pet_more_list_block_line_font">科技</div>
-            </a>
-            <a class="pet_more_list_block_line" href="content?channel=health">
-              <i class="iconfont pet_nav_mengzhuanti pet_more_list_block_line_ico">&#xe622;</i>
-              <div class="pet_more_list_block_line_font">健康</div>
-            </a>
-            <a class="pet_more_list_block_line" href="content?channel=ast">
-              <i class="iconfont pet_nav_bk pet_more_list_block_line_ico">&#xe629;</i>
-              <div class="pet_more_list_block_line_font">星座</div>
-            </a>
-            <a class="pet_more_list_block_line" href="content?channel=ent">
-              <i class="iconfont pet_nav_wd pet_more_list_block_line_ico">&#xe602;</i>
-              <div class="pet_more_list_block_line_font">娱乐</div>
-            </a>
-            <a class="pet_more_list_block_line" href="content?channel=sports">
-              <i class="iconfont pet_nav_xinxianshi pet_more_list_block_line_ico">&#xe61e;</i>
-              <div class="pet_more_list_block_line_font">体育</div>
-            </a>
-            <a class="pet_more_list_block_line" href="content?channel=finance">
-              <i class="iconfont pet_nav_zhangzhishi pet_more_list_block_line_ico">&#xe607;</i>
-              <div class="pet_more_list_block_line_font">财经</div>
-            </a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
     <div class="pet_content pet_content_list">
       <div class="pet_article_like">
         <div class="pet_content_main pet_article_like_delete">
           <div data-am-widget="list_news" class="am-list-news am-list-news-default am-no-layout">
             <div class="am-list-news-bd">
               <ul class="am-list">
-                <!--缩略图在标题右边-->
                 <c:forEach items="${list}" var="news">
 			     <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right pet_list_one_block">
 			        <div class="pet_list_one_info">
@@ -96,26 +52,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			            </div>
 			        </div>
 			        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
-			            <h3 class="am-list-item-hd pet_list_one_bt"><a href="detail?id=${news.newsId }" class="">${news.title}</a></h3>
+			            <h3 class="am-list-item-hd pet_list_one_bt"><a href="${pageContext.request.contextPath}/detail/show?newsId=${news.news_id }" class="">${news.title}</a></h3>
 			            <div class="am-list-item-text pet_list_one_text">${news.content }</div>
 			        </div>
 			          <div class="am-u-sm-4 am-list-thumb">
-			            <a href="detail?id=${news.newsId }" class="">
+			            <a href="detail?id=${news.news_id }" class="">
 			              <img src="${news.pic }" class="pet_list_one_img" alt=""/>
 			            </a>
 			          </div>
 			      </li>
-                
                 </c:forEach>
                 </ul>
               </div>
-
             </div>
-
           </div>
-
         </div>
-
         <div class="pet_article_footer_info">Copyright(c)2015 PetShow All Rights Reserved</div>
       </div>
     </div>
