@@ -7,23 +7,416 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad15ca72-c774-4403-96f5-54c93b68f9d1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/MyNew_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-8.0.12.jar" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/ContentController.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/ContentController.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/CountController.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/CountController.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/DetailController.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/DetailController.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/NewsController.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/controller/NewsController.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/dao/NewsDao.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/dao/NewsDao.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/entity/News.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/entity/News.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/service/NewsService.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/service/NewsService.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/service/NewsServiceImpl.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/service/NewsServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/DBUtil.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/DBUtil.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/DataUtil.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/DataUtil.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/HttpUtils$1.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/HttpUtils$1.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/HttpUtils.class" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/com/coderli/util/HttpUtils.class" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/db.properties" />
-      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/db.properties" afterPath="$PROJECT_DIR$/src/db.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/MyNew.iml" afterPath="$PROJECT_DIR$/MyNew.iml" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/api.example.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/ContentController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/CountController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/DetailController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/NewsController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/dao/NewsDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/entity/News.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/service/NewsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/service/NewsServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/DBUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/DataUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/HttpUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/HttpUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/db.example.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/mappers/comment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/mappers/news.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ant-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/asm-5.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/cglib-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-beanutils.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-collections4-4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/curvesapi-1.04.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/gson-2.2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/gson-2.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/httpclient-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/httpcore-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/javassist-3.11.0.GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/log4j-api-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/log4j-core-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ognl-3.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ognl-3.1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-excelant-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-ooxml-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-ooxml-schemas-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-scratchpad-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/postgresql-42.1.4.jre7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-aspects-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-context-support-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-test-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/api.example.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/ContentController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/CountController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/DetailController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/NewsController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/dao/NewsDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/entity/News.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/service/NewsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/service/NewsServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/DBUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/DataUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/HttpUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/com/coderli/util/HttpUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/db.example.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/ant-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/asm-5.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/cglib-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-beanutils.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-collections4-4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-dbcp2-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-io-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/curvesapi-1.04.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/gson-2.2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/gson-2.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/httpclient-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/httpcore-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/javassist-3.11.0.GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/log4j-api-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/log4j-core-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/mysql-connector-java-8.0.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/ognl-3.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/ognl-3.1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/poi-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/poi-excelant-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/poi-ooxml-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/poi-ooxml-schemas-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/poi-scratchpad-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/postgresql-42.1.4.jre7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-aop-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-aspects-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-beans-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-context-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-context-support-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-core-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-expression-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-jdbc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-orm-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-test-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-tx-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-web-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/standard-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/mappers/comment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/mappers/news.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/classes/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ant-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/asm-5.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/cglib-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-beanutils.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-collections4-4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/curvesapi-1.04.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/gson-2.2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/gson-2.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/httpclient-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/httpcore-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/javassist-3.11.0.GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/log4j-api-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/log4j-core-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ognl-3.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/ognl-3.1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-excelant-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-ooxml-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-ooxml-schemas-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/poi-scratchpad-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/postgresql-42.1.4.jre7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-aspects-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-context-support-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-test-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/api.example.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/ContentController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/CountController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/DetailController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/controller/NewsController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/dao/NewsDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/entity/News.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/service/NewsService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/service/NewsServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/util/DBUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/util/DataUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/util/HttpUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/com/coderli/util/HttpUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/db.example.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/ant-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/asm-5.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/cglib-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-beanutils.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-collections4-4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-dbcp2-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-io-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/curvesapi-1.04.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/gson-2.2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/gson-2.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/httpclient-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/httpcore-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/javassist-3.11.0.GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/log4j-api-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/log4j-core-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/mysql-connector-java-8.0.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/ognl-3.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/ognl-3.1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/poi-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/poi-excelant-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/poi-ooxml-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/poi-ooxml-schemas-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/poi-scratchpad-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/postgresql-42.1.4.jre7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-aop-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-aspects-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-beans-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-context-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-context-support-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-core-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-expression-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-jdbc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-orm-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-test-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-tx-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-web-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/standard-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/mappers/comment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/mappers/news.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/classes/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/ant-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/asm-5.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/cglib-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-beanutils.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-collections4-4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/curvesapi-1.04.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/gson-2.2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/gson-2.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/httpclient-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/httpcore-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/javassist-3.11.0.GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/log4j-api-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/log4j-core-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/ognl-3.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/ognl-3.1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/poi-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/poi-excelant-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/poi-ooxml-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/poi-ooxml-schemas-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/poi-scratchpad-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/postgresql-42.1.4.jre7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-aop-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-aspects-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-beans-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-context-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-context-support-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-core-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-expression-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-jdbc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-orm-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-test-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-tx-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-web-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/ant-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/ant-launcher-1.9.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/asm-5.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/cglib-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-beanutils.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-collections4-4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-dbcp2-2.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-io-2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-logging-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/commons-pool2-2.4.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/curvesapi-1.04.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/freemarker-2.3.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/gson-2.2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/gson-2.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/httpclient-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/httpcore-4.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/javassist-3.11.0.GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/javassist-3.20.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/jstl-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/log4j-api-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/log4j-core-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/mybatis-spring-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/mysql-connector-java-8.0.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/ognl-3.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/ognl-3.1.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/poi-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/poi-excelant-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/poi-ooxml-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/poi-ooxml-schemas-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/poi-scratchpad-3.17-beta1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/postgresql-42.1.4.jre7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/slf4j-api-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/slf4j-log4j12-1.7.21.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-aop-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-aspects-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-beans-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-context-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-context-support-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-core-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-expression-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-jdbc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-orm-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-test-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-tx-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-web-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/spring-webmvc-4.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/standard-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/lib/xmlbeans-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/classes/web.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/WebRoot/WEB-INF/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,110 +428,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="News.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coderli/entity/News.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/ContentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/CountController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mappers/comment.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mappers/news.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding>
-                <marker date="1536415043091" expanded="true" signature="259:422" ph="select n.*,c... t_news" />
-                <marker date="1536415043091" expanded="true" signature="500:543" ph="select * fro... t_channel" />
-                <marker date="1536415043091" expanded="true" signature="619:681" ph="select news_... t_news" />
-                <marker date="1536415043091" expanded="true" signature="758:969" ph="select n.*,c... t_news" />
-                <marker date="1536415043091" expanded="true" signature="1061:1207" ph="select n.*,c... t_news" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/NewsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            <state relative-caret-position="476">
+              <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/coderli/util/DataUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="412">
+              <caret line="85" column="60" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
               <folding>
-                <marker date="1536415043085" expanded="true" signature="2195:2287" ph="insert into t_news... " />
+                <element signature="e#1249#1265#0" expanded="true" />
+                <element signature="e#1365#1381#0" expanded="true" />
+                <element signature="e#1746#1770#0" expanded="true" />
+                <marker date="1536625028056" expanded="true" signature="2195:2287" ph="insert into t_news... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.example.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes/artifacts/MyNew_war_exploded/WEB-INF/classes/api.example.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.example.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api.example.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -212,6 +522,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,31 +557,10 @@
               <item name="coderli" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tthot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myNew" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="coderli" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tthot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myNew" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tthot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myNew" type="462c0819:PsiDirectoryNode" />
-              <item name="WebRoot" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
@@ -280,7 +571,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15282623" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -477,42 +768,43 @@
       <workItem from="1536538626616" duration="9000" />
       <workItem from="1536588760910" duration="3693000" />
       <workItem from="1536593686133" duration="1682000" />
+      <workItem from="1536624433354" duration="1879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6546000" />
+    <option name="totallyTimeSpent" value="8425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33802816" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4864572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58829904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -520,40 +812,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3336945" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -563,15 +821,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/coderli/controller/NewsController.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -610,6 +860,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/ContentController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/CountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/comment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mappers/news.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <marker date="1536415043091" expanded="true" signature="259:422" ph="select n.*,c... t_news" />
+            <marker date="1536415043091" expanded="true" signature="500:543" ph="select * fro... t_channel" />
+            <marker date="1536415043091" expanded="true" signature="619:681" ph="select news_... t_news" />
+            <marker date="1536415043091" expanded="true" signature="758:969" ph="select n.*,c... t_news" />
+            <marker date="1536415043091" expanded="true" signature="1061:1207" ph="select n.*,c... t_news" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/artifacts/MyNew_war_exploded/WEB-INF/classes/api.example.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.example.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/util/DataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#1249#1265#0" expanded="true" />
+            <element signature="e#1365#1381#0" expanded="true" />
+            <element signature="e#1746#1770#0" expanded="true" />
+            <marker date="1536625028056" expanded="true" signature="2195:2287" ph="insert into t_news... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/entity/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="25" />
           <folding />
@@ -620,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="112" lean-forward="false" selection-start-line="1" selection-start-column="112" selection-end-line="1" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,7 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="112" lean-forward="false" selection-start-line="1" selection-start-column="112" selection-end-line="1" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,6 +1143,64 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/CountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/entity/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/classes/api.example.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.example.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/artifacts/MyNew_war_exploded/WEB-INF/classes/api.example.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="891" column="24" lean-forward="true" selection-start-line="891" selection-start-column="24" selection-end-line="891" selection-end-column="24" />
+          <folding>
+            <element signature="e#37718#37719#0" expanded="false" />
+            <element signature="e#37754#37755#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -823,77 +1218,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/CountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/ContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coderli/entity/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/classes/api.example.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/artifacts/MyNew_war_exploded/WEB-INF/classes/api.example.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api.example.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/NewsController.java">
+    <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="41" column="28" lean-forward="true" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/coderli/util/DataUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state relative-caret-position="412">
+          <caret line="85" column="60" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
           <folding>
-            <marker date="1536415043085" expanded="true" signature="2195:2287" ph="insert into t_news... " />
+            <element signature="e#1249#1265#0" expanded="true" />
+            <element signature="e#1365#1381#0" expanded="true" />
+            <element signature="e#1746#1770#0" expanded="true" />
+            <marker date="1536625028056" expanded="true" signature="2195:2287" ph="insert into t_news... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/coderli/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -951,12 +1317,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MyNew</last-edited>
+          <last-edited>Web|MyNew</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
