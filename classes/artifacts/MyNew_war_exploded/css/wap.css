@@ -107,7 +107,7 @@ background-size: 100%; width: 100%; height: 100%; bottom: 0; left: 0; z-index: 1
 .pet_list_tag_stj { border-right: 3px solid #764f9c; color: #764f9c;  }
 .pet_list_tag_kty { border-right: 3px solid #6f68df; color: #6f68df;  }
 .pet_list_tag_mzt { border-right: 3px solid #7f2d00; color: #7f2d00;  }
-.pet_content_main .am-list-news-default .pet_list_one_text { position: absolute; left: 0px; bottom: 0px;/*-webkit-line-clamp: 1;*/}
+.pet_content_main .am-list-news-default .pet_list_one_text { position: relative; left: 0px; bottom: 0px;/*-webkit-line-clamp: 1;*/}
 .pet_content_main .am-list-news-default .pet_list_zt_img { width: 100%;padding: 8px 0;}
 .pet_content_main .am-list-news-default .pet_list_zt_img img { width: 100%;}
 .pet_list_one_tytj { padding: 0px}

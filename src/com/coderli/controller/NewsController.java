@@ -2,17 +2,12 @@ package com.coderli.controller;
 
 import java.util.List;
 import java.util.Map;
-
-import javax.annotation.Resource;
-
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.context.request.WebRequest;
-
 import com.coderli.service.NewsService;
 import com.coderli.util.DataUtil;
-import com.google.gson.Gson;
 
 /**
  * 主页
@@ -21,9 +16,8 @@ import com.google.gson.Gson;
  */
 @Controller
 @RequestMapping("/news")
-@SuppressWarnings("all")
 public class NewsController{
-	@Resource(name="newsService")
+	@Autowired
 	private NewsService service = null;
 
 	@RequestMapping(value="/getNewData")

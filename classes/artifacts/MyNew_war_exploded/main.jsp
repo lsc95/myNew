@@ -69,7 +69,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	                <div class="pet_list_tag pet_list_tag_xxs">${news.channel}</div>
 	            </div>
 	        </div>
-	        <div class=" am-u-sm-8 am-list-main pet_list_one_nr">
+	        <div class=" am-u-sm-8 am-list-main pet_list_one_nr" style="heigh:auto!important;">
 	            <h3 class="am-list-item-hd pet_list_one_bt"><a href="${pageContext.request.contextPath}/detail/show?newsId=${news.news_id }" class="detail-url">${news.title}</a></h3>
 	            <div class="am-list-item-text pet_list_one_text">${news.content}</div>
 	        </div>
@@ -106,8 +106,10 @@ $(function(){
 
     $('.am-list > li:last-child').css('border','none');
     function auto_resize(){
-        $('.pet_list_one_nr').height($('.pet_list_one_img').height());
-
+        var imgHeight = $('.pet_list_one_img').height();
+        if(imgHeight!=0&&imgHeight!=''&&imgHeight!='undefined'){
+            $('.pet_list_one_nr').height($('.pet_list_one_img').height());
+        }
     }
         $('.pet_nav_gengduo').on('click',function(){
             $('.pet_more_list').addClass('pet_more_list_show');

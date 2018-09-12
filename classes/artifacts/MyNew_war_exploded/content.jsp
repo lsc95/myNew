@@ -48,9 +48,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	        <li><a class="link_share_button" href="###"><i class="iconfont share_ico_pyq">&#xe62e;</i>朋友圈</a></li>
 	      </ul>
 	</div>
-<%-- <div class="pet_comment_list">
-  	<div class="pet_comment_list_wap"><div class="pet_comment_list_title">精彩评论</div>
-	
+	<div class="pet_comment_list">
+	  <div class="pet_comment_list_wap"><div class="pet_comment_list_title">精彩评论</div>
 	  <div data-am-widget="tabs" class="am-tabs am-tabs-default pet_comment_list_tab" >
 	      <ul class="am-tabs-nav am-cf pet_comment_list_title_tab">
 	          <li class="am-active"><a href="[data-tab-panel-0]">人气</a></li>
@@ -59,21 +58,34 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	      </ul>
 	      <div class="am-tabs-bd pet_pl_list">
 	          <div data-tab-panel-0 class="am-tab-panel am-active">
-	            <c:forEach items="${comments}" var="comment">
-		            <div class="pet_comment_list_block">
-		              <div class="pet_comment_list_block_l"><img src="img/a4.png" alt=""></div>
-		              <div class="pet_comment_list_block_r">
-		                <div class="pet_comment_list_block_r_info">Drary</div>
-		                <div class="pet_comment_list_block_r_text">${comment.content}</div>
-		                <div class="pet_comment_list_block_r_bottom">
-		                  <div class="pet_comment_list_bottom_info_l">1小时前</div>
-		                  <div class="pet_comment_list_bottom_info_r">
-		                  <span><i class="iconfont">&#xe631;</i>${comment.count}</span>
-		                  <span> 回复</span></div>
-		                </div>
-		              </div>
-		            </div>
-	            </c:forEach>
+	            <%--<c:forEach items="${comments}" var="comment">--%>
+		            <%--<div class="pet_comment_list_block">--%>
+		              <%--<div class="pet_comment_list_block_l"><img src="img/a4.png" alt=""></div>--%>
+		              <%--<div class="pet_comment_list_block_r">--%>
+		                <%--<div class="pet_comment_list_block_r_info">Drary</div>--%>
+		                <%--<div class="pet_comment_list_block_r_text">${comment.content}</div>--%>
+		                <%--<div class="pet_comment_list_block_r_bottom">--%>
+		                  <%--<div class="pet_comment_list_bottom_info_l">1小时前</div>--%>
+		                  <%--<div class="pet_comment_list_bottom_info_r">--%>
+		                  <%--<span><i class="iconfont">&#xe631;</i>${comment.count}</span>--%>
+		                  <%--<span> 回复</span></div>--%>
+		                <%--</div>--%>
+		              <%--</div>--%>
+		            <%--</div>--%>
+	            <%--</c:forEach>--%>
+					<div class="pet_comment_list_block">
+						<div class="pet_comment_list_block_l"><img src="img/a3.png" alt=""></div>
+						<div class="pet_comment_list_block_r">
+							<div class="pet_comment_list_block_r_info">AllThe</div>
+							<div class="pet_comment_list_block_r_text">表紙の裏に移らないよに あけた一枚目のページの裏に透けた文字めくろうとして 指がとまって</div>
+							<div class="pet_comment_list_block_r_bottom">
+								<div class="pet_comment_list_bottom_info_l">30分钟前</div>
+								<div class="pet_comment_list_bottom_info_r">
+									<span><i class="iconfont">&#xe631;</i>5 </span>
+									<span> 回复</span></div>
+							</div>
+						</div>
+					</div>
 	          </div>
 	          <div data-tab-panel-1 class="am-tab-panel ">
 	              
@@ -109,7 +121,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	      </div>
 	  </div>
 	  </div>
-	</div> --%>
+	</div>
 <div class="pet_article_like">
 <div class="pet_article_like_title">猜你喜欢</div>
 
